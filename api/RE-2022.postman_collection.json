@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "598fc9b8-35e2-49e3-828d-ff8b90e91257",
+		"name": "RE-2022",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Numbersapi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://numbersapi.com/12",
+					"protocol": "http",
+					"host": [
+						"numbersapi",
+						"com"
+					],
+					"path": [
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reqres get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reqres post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "morpheus",
+							"type": "text"
+						},
+						{
+							"key": "job",
+							"value": "leader",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
