@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Widget</title>
+
+        <script src="./index.js"></script>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div id="widget"></div>
+        <div id="widget-1"></div>
+
+        <script>
+            const widget = document.getElementById("widget");
+            const flagWidget = new FlagWidget(widget);
+            flagWidget.init();
+
+            const widget1 = document.getElementById("widget-1");
+            const flagWidget1 = new FlagWidget(widget1);
+            flagWidget1.init();
+        </script>
+    </body>
+</html>
