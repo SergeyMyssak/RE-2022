@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+#addressPopup {
+    padding: 0 10px;
+    margin: 10px;
+    background-color: #FFF;
+}
+
+#address {
+    font-size: 14px;
+}
