@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+#popup {
+    position: absolute;
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: fit-content;
+    min-width: 200px;
+}
+
+#popup-close-btn {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
